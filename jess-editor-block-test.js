@@ -26,10 +26,10 @@
 					type: 'string',
 					default: 'Editable block content...',
 				},
-			},
+		},
 
-			// WP - Editor - block
-			edit: function( props ) {
+		// WP - Editor - block
+		edit: function( props ) {
 				var content = props.attributes.content;
 				var focus = props.focus;
 

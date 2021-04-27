@@ -34,8 +34,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 function jess_editor_block_test_css_enqueue() {
-		wp_register_style( 'jess-editor-block-test-css', plugins_url( 'jess-editor-block-test.css', __FILE__ ),'','', 'screen' );
-		wp_enqueue_style( 'jess-editor-block-test-css' );
+	wp_register_style( 'jess-editor-block-test-css', plugins_url( 'jess-editor-block-test.css', __FILE__ ),'','', 'screen' );
+	wp_enqueue_style( 'jess-editor-block-test-css' );
 }
 add_action( 'wp_enqueue_scripts', 'jess_editor_block_test_css_enqueue' );
 
