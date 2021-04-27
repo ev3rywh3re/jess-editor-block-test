@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 function jess_editor_block_test_css_enqueue() {
-    wp_register_style( 'jess-editor-block-test-css', plugins_url( 'jess-editor-block-test.css', __FILE__ ),'','', 'screen' );
+		wp_register_style( 'jess-editor-block-test-css', plugins_url( 'jess-editor-block-test.css', __FILE__ ),'','', 'screen' );
 		wp_enqueue_style( 'jess-editor-block-test-css' );
 }
 add_action( 'wp_enqueue_scripts', 'jess_editor_block_test_css_enqueue' );
@@ -46,7 +46,7 @@ add_action( 'wp_enqueue_scripts', 'jess_editor_block_test_css_enqueue' );
  */
 function jess_editor_block_test_js_enqueue() {
 
-  // Javascript for editor block. See jess-editor-block-test.js
+	// Javascript for editor block. See jess-editor-block-test.js
 	wp_enqueue_script(
 		'mdlr-editable-block-example-backend-script', // Unique handle.
 		plugins_url( 'jess-editor-block-test.js', __FILE__ ), // WP Editor javascript
@@ -54,7 +54,7 @@ function jess_editor_block_test_js_enqueue() {
 		filemtime( plugin_dir_path( __FILE__ ) . 'jess-editor-block-test.js' ) // filemtime — Gets file modification time.
 	);
 
-  // Enqueue hover effect CSS so it can be seen while editing. NOTE: future testing for span vs. div testing.
+	// Enqueue hover effect CSS so it can be seen while editing. NOTE: future testing for span vs. div testing.
 	wp_register_style( 'jess-editor-block-test-css', plugins_url( 'jess-editor-block-test.css', __FILE__ ),'','', 'screen' );
 	wp_enqueue_style( 'jess-editor-block-test-css' );
 }

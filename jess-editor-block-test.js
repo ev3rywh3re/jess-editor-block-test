@@ -8,13 +8,13 @@
 	var RichText          = wp.editor.RichText; // For creating editable elements.
 
 	/**
-	 * Register block
-	 *
-	 * @param  {string}   name     Block name.
-	 * @param  {Object}   settings Block settings.
-	 * @return {?WPBlock}          Block itself, if registered successfully,
-	 *                             otherwise "undefined".
-	 */
+	* Register block
+	*
+	* @param  {string}   name     Block name.
+	* @param  {Object}   settings Block settings.
+	* @return {?WPBlock}          Block itself, if registered successfully,
+	*                             otherwise "undefined".
+	*/
 	registerBlockType(
 		'jess/block-test', // Block name. Prefix namespace, class
 		{
