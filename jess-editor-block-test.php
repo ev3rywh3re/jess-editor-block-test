@@ -18,9 +18,12 @@
  * Block Icons https://developer.wordpress.org/resource/dashicons/#block-default
  *
  * Javascript internationalization in WordPress https://make.wordpress.org/core/2018/11/09/new-javascript-i18n-support-in-wordpress/
-
+ *
  * Note JS diffences for ES5 and ESNext on Wordpress.org documentation
  * https://developer.wordpress.org/block-editor/reference-guides/richtext/
+ * WordPress block types - Block editor handbook
+ * https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/writing-your-first-block-type/
+ *
  */
 
 // Security - Exit if accessed directly.
